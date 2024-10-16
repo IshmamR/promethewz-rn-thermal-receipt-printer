@@ -58,7 +58,7 @@
   "peerDependencies": {
     "@charles-johnson/react-native-ping": "1.2.15"
   },
-  "author": "IsmamR",
+  "author": "IshmamR",
   "homepage": "https://github.com/IshmamR/promethewz-rn-thermal-receipt-printer#readme",
   "license": "ISC"
 }

@@ -241,8 +241,6 @@ var BLEPrinter = {
             RNBLEPrinter.printRawData(processedText.text, processedText.opts, function (error) { return console.warn(error); });
         }
         else {
-            console.log(`Text original: ${text}`)
-            console.log(`Text converted to: ${textTo64Buffer(text, opts)}`)
             RNBLEPrinter.printRawData(textTo64Buffer(text, opts), function (error) {
                 return console.warn(error);
             });
